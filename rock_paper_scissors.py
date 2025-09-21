@@ -9,7 +9,13 @@ scissors = "Scissors"
 
 human_score = 0
 machine_score = 0
-
+print("Welcome to the Ultimate Rock, Paper, Scissors Showdown! ✊✋✌️\n"
+      "Step into the arena where quick wits and sharp instincts rule. \n"
+      "Will you crush with Rock, outsmart with Paper, or strike fast with Scissors?\n"
+      "Every choice counts — so think fast, play bold, and claim your victory!")
+print()
+print("👉 Ready? The game is simple. The thrill? Endless.")
+print()
 while True:
     player_move = input("Choose [r]ock, [p]aper or [s]cissors: ")
 
@@ -48,11 +54,11 @@ while True:
 
     print(f"Current score:\nHuman: {human_score}\nMachine: {machine_score}")
 
-    continue_game = ""
-
-    continue_choice = input("Do you want to continue playing? Type Yes or No: ")
-    if continue_choice == "Yes":
+    continue_game = input("Do you want to continue playing? Type Yes or No: ")
+    if continue_game == "Yes" or continue_game == "yes" or continue_game == "y":
+        print()
         continue
     else:
+        print()
         print(f"Thanks for playing! Final score:\nHuman: {human_score}\nMachine: {machine_score}")
     break
