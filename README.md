@@ -9,6 +9,7 @@ This is my first project in python looking to accomplish some interaction betwee
 Basically what you think it does - you and your computer take turns in selecting [r]ock, [p]aper or [s]cissors. After you select what you want to go with the computer chooses and you see the result immediately. You can either $${\color{green}Win}$$ or $${\color{red}Lose}$$ or $${\color{yellow}Draw}$$.
 
 A scoring system is in place keeping track of the result. After each game you will be asked if you want to continue playing.
+
 <img width="631" height="434" alt="image" src="https://github.com/user-attachments/assets/de83b8da-d57d-4012-83a4-438b61e2db5d" />
 
 If you do want to continue playing another game will load and will prompt you to select rock, paper or scissors again. The score will continue updating with every game you play until you decide you do not want to play anymore. When you wish to stop the game a summary of the score will be displayed and based on who scored more points - you or your computer, the program will give you an exit message announcing the winner.
